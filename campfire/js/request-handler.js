@@ -26,6 +26,7 @@ function RequestHandler() {
     };
 
     this.getClient = function (req, res) {
+        res.send('single client url test');
         //var dbHandler = new DbHandler();
         //var id = req.params.clientId;
         //dbHandler.retrieveWithId('clients', id, function (result) {
