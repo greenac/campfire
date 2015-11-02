@@ -48,7 +48,7 @@ function app() {
         expApp.get('/all-clients', requestHandler.getAllClients);
         expApp.get('/get-client', requestHandler.getClient);
 
-        var server = expApp.listen(9042, function() {
+        var server = expApp.listen(3000, function() {
             var host = server.address().address;
             var port = server.address().port;
 
